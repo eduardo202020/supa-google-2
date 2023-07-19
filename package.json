@@ -9,14 +9,29 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "@supabase/supabase-js": "^2.26.0",
     "expo": "~48.0.18",
+    "expo-linking": "~4.0.1",
+    "expo-secure-store": "~12.1.1",
     "expo-status-bar": "~1.4.4",
+    "expo-web-browser": "~12.1.1",
+    "install": "^0.13.0",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-native": "0.71.8",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.18.10",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^18.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.0.14",
+    "@types/react-native": "^0.72.2",
+    "babel-plugin-inline-dotenv": "^1.7.0",
     "typescript": "^4.9.4"
   },
   "private": true

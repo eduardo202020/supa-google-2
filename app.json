@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "mysupabaseappv2",
     "name": "supa-google-2",
     "slug": "supa-google-2",
     "version": "1.0.0",
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13c4aa67-851e-4afd-a7b4-9b045b6356d7"
+      }
     }
   }
 }
